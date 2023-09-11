@@ -1,0 +1,46 @@
+.header {
+    position: relative;
+    z-index: 10;
+}
+
+.menu {
+    margin-top: 80px;
+    
+		&__list {
+            display: flex;
+            gap: 0 58px;
+            justify-content: right;
+		}
+
+		
+
+		&__link {
+            color: #FFF;
+            font-family: Oswald;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.94px;
+            
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                width: 17.97px;
+                height: 2px;
+                background-color: #4CAF50;
+                bottom: 0px;
+                right: 0;
+                
+            }
+           &:hover::after{
+            display: none;
+            
+           }
+           &:hover{
+            border-bottom:2px solid #4CAF50;
+           }
+		}
+       
+}
