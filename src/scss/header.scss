@@ -1,6 +1,7 @@
 .header {
     position: relative;
     z-index: 10;
+    height: 150px;
 }
 
 .menu {
@@ -10,6 +11,7 @@
             display: flex;
             gap: 0 58px;
             justify-content: right;
+            flex-wrap: wrap;
 		}
 
 		

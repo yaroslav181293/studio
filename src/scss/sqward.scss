@@ -1,0 +1,78 @@
+.sqward {
+    margin-top: 150px;
+    height: 560px;
+    
+    &__container{
+        position: relative;
+       
+    }
+    &__img{
+        position: absolute;
+        top: 0;
+        left: 212px;
+       z-index: -1;
+    }
+    &__box{
+        width: 309px;
+        height: 418px;
+        opacity: 0.8;
+        background: #4CAF50;
+        position: absolute;
+        top: 62px;
+        left: 403px;
+        z-index: -2;
+    }
+    &__img2{
+        position: absolute;
+       top: 169px;
+       left: 613px;
+       z-index: -3;
+      
+    }
+    &__title {
+        padding-top: 73px;
+        color: #333;
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 2.304px;
+    }
+
+    &__subtitle {
+        color: #504E4E;
+        font-family: OpenSans;
+        font-size: 42px;
+        font-weight: 300;
+        letter-spacing: 2.688px;
+    }
+
+    &__text {
+        margin-top: 32px;
+        color: #5B5858;
+        font-family: OpenSans;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 1.66; /* 166.667% */
+        letter-spacing: 1.26px;
+        width: 281px;
+        margin-left: 51px;
+        position: relative;
+        &::before{
+            position: absolute;
+            content: "";
+            width: 20px;
+            height: 2px;
+            background: #353535;
+            top: 11px;
+            left:  -30px;
+        }
+    }
+
+    &__text-bot {
+       margin-left: auto;
+       margin-top: 110px;
+    
+    }
+}
+.container {
+   
+}

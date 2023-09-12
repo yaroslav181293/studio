@@ -1,0 +1,35 @@
+
+@media (max-width:768.98px){
+    .page {
+
+		&__title {
+            font-size: 50px;
+		}
+
+}
+
+
+}
+@media (max-width:550.98px){
+    .header {
+    }
+   
+    .menu {
+    
+            &__list {
+                gap: 10px 30px;
+            }
+    
+          
+    }
+    
+    .page {
+
+		&__title {
+            font-size: 30px;
+		}
+
+}
+
+
+}
