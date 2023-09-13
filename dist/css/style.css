@@ -97,6 +97,23 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 15px;
 }
 
+.title {
+  color: #252525;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 3.072px;
+  position: relative;
+}
+.title::before {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 2px;
+  background: #252525;
+  bottom: -15px;
+  left: 0;
+}
+
 .header {
   position: relative;
   z-index: 10;
@@ -264,9 +281,90 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 110px;
 }
 
+.services {
+  margin-top: 117px;
+}
+.services__title {
+  padding-top: 129px;
+}
+.services__wrapper {
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.services__card {
+  padding: 50px 48px 35px 44px;
+  width: 373px;
+}
+.services__card:hover {
+  border-bottom: 3px solid #70BF73;
+}
+.services__card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services__card-title {
+  color: #252525;
+  line-height: normal;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  position: relative;
+}
+.services__card-title::before {
+  position: absolute;
+  content: "";
+  width: 35px;
+  height: 2px;
+  background: #252525;
+  left: 0;
+  bottom: -15px;
+}
+.services__card-img {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  filter: drop-shadow(0px 0px 20px #DBDBDB);
+  border-radius: 100%;
+  position: relative;
+}
+.services__card-img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.services__text {
+  color: #777;
+  font-family: OpenSans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.08; /* 208.333% */
+  letter-spacing: 1.008px;
+  margin-top: 19px;
+}
+.services__card-link {
+  color: #252525;
+  font-size: 10px;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 19px;
+}
+
+@media (max-width: 992.98px) {
+  .sqward__img2 {
+    display: none;
+  }
+}
 @media (max-width: 768.98px) {
   .page__title {
     font-size: 50px;
+  }
+  .sqward__box {
+    display: none;
   }
 }
 @media (max-width: 550.98px) {
@@ -275,5 +373,15 @@ h1, h2, h3, h4, h5, h6 {
   }
   .page__title {
     font-size: 30px;
+  }
+  .sqward {
+    margin-top: 50px;
+  }
+  .sqward__img {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .sqward__text {
+    margin-left: 10px;
   }
 }

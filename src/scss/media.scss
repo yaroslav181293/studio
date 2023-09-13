@@ -1,4 +1,13 @@
+@media (max-width:992.98px){
+  .sqward {
 
+
+		&__img2 {
+      display: none;
+		}	
+}
+
+}
 @media (max-width:768.98px){
     .page {
 
@@ -7,7 +16,14 @@
 		}
 
 }
+.sqward {
 
+  &__box {
+    display: none;
+  }
+
+  
+}
 
 }
 @media (max-width:550.98px){
@@ -30,6 +46,17 @@
 		}
 
 }
+.sqward {
+  margin-top: 50px;
+  &__img {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__text{
+    margin-left: 10px;
+  }
 
+  
+}
 
 }

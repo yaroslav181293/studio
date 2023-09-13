@@ -62,8 +62,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     margin: 0 auto;
     padding: 0 15px;
 }
+@import "titles";
 @import "header";
 @import "page";
 @import "sqward";
+@import "services";
 @import "footer";
 @import "media";
