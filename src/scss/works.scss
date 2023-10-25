@@ -1,0 +1,126 @@
+.works {
+    margin-top: 164px;
+   
+   
+
+    
+    &__container {
+        position: relative;
+        height: 1652px;
+    }
+
+    &__title {
+        padding-top: 45px;
+    }
+    
+    &__list {
+        display: flex;
+        gap:0 40px;
+        margin-top: 55px;
+        flex-wrap: wrap;
+    }
+    
+
+    &__item {
+        color: #252525;
+        font-family: OpenSans;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 0.832px;
+        opacity: 0.3;
+        cursor: pointer;
+        transition: 0.3s opacity;
+        &:hover{
+            opacity: 1;
+        }
+    }
+    &_wrapper{
+        position: absolute;
+    }
+    &__card {
+        max-width: 584px;
+        width: 100%;
+        // position: relative;
+    }
+    &__img{
+       
+
+    }
+
+    &__card-right {
+    }
+
+    &__name {
+        color: #252525;
+        font-family: OpenSans;
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 1.152px;
+        text-align: center;
+        margin-top: 17px;
+    }
+
+    &__card-title {
+        color: #252525;
+        font-size: 48px;
+        letter-spacing: 3.072px;
+        
+    }
+
+    &__card-title-left {
+        position: absolute;
+       bottom: 155px;
+       left: -105px;
+    }
+
+    &__text {
+        color: #C2C2C2;
+        font-family: OpenSans;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 1.76; /* 176.923% */
+        letter-spacing: 0.832px;
+        width: 336px;
+        text-align: right;
+        margin-top: 20px;
+    }
+
+    &__card-left-top {
+      position: absolute;
+      top: 358px;
+       
+    }
+    &__card-left-bot{
+        position: absolute;
+        top: 1094px;
+    }
+
+    &__card-title-right {
+        position: absolute;
+        right: -123px;
+        bottom: 130px;
+      
+    }
+    &__card-right-top{
+        position: absolute;
+        top: 0;
+        right: 0;
+
+    }
+    &__card-right-bot{
+        position: absolute;
+        top: 729px;
+        right: 0;
+    }
+    &__text-bot{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        color: #252525;
+        font-family: Oswald;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+}
+
