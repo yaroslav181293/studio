@@ -1,3 +1,15 @@
+@media (max-width:1142.98px){
+  .contact{
+    overflow: visible;
+    &__wrapper{
+      flex-direction: column;
+    }
+    &__item-g{
+      position: static;
+      width: 100%;
+    }
+  }
+}
 @media (max-width:1047.98px){
   .works {
 
@@ -55,6 +67,9 @@
       display: none;
 		}	
 }
+.contact{
+  margin-top: 20px;
+}
 
 }
 @media (max-width:768.98px){
@@ -83,6 +98,7 @@
     justify-content: center;
   }
 }
+
 
 }
 @media (max-width:550.98px){
@@ -130,7 +146,7 @@
   
   &__card{
     img{
-      width: 320px;
+      width: 290px;
     }
   }
   &__text{

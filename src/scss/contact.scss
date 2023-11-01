@@ -1,0 +1,55 @@
+.contact {
+    margin-top: 117px;
+    overflow-x: clip;
+    &__container{
+        position: relative;
+        
+    }
+    &__wrapper {
+        display: flex;
+       
+        text-align: center;
+    }
+
+    &__item {
+        padding: 69px 0 100px 0;
+        
+
+    }
+
+    &__title {
+        color: #373737;
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: 2.667px;
+        margin-top: 20px;
+    }
+    &__title-w{
+        color: #FFF;
+    }
+
+    &__subtitle {
+        color: #373737;
+        font-family: OpenSans;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 1.556px;
+        opacity: 0.8;
+        margin-top: 22px;
+    }
+    &__subtitle-w{
+        color: #FFF;
+    }
+
+    &__item-g {
+        background: #70BD59;
+        width: 900px;
+        position: absolute;
+        left: 622px;
+        
+       
+        
+        
+    }
+}
+
