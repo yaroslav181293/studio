@@ -430,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .works__card-title-right {
   position: absolute;
-  right: -123px;
+  right: 10px;
   bottom: 130px;
 }
 .works__card-right-top {
@@ -625,6 +625,40 @@ h1, h2, h3, h4, h5, h6 {
   left: 622px;
 }
 
+.footer__inner-grey {
+  background: #2E2E2E;
+  text-align: center;
+  padding: 142px 0 80px 0;
+}
+.footer__text {
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.832px;
+  opacity: 0.5;
+}
+.footer__contact {
+  margin-top: 10px;
+}
+.footer__inner-img {
+  display: flex;
+  justify-content: center;
+  gap: 0 20px;
+  margin-top: 40px;
+}
+.footer__inner-black {
+  background: #252525;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+.footer__copy {
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.832px;
+  opacity: 0.5;
+}
+
 @media (max-width: 1142.98px) {
   .contact {
     overflow: visible;
@@ -650,6 +684,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   .works__card-title-left {
     left: 270px;
+  }
+  .works__card-title-right {
+    right: -513px;
   }
   .works__card-left-top {
     top: 600px;
@@ -712,6 +749,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   .works__card img {
     width: 290px;
+  }
+  .works__card-title-right {
+    width: 100%;
+    left: 10px;
   }
   .works__text {
     width: 270px;

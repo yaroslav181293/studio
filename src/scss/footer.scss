@@ -1,0 +1,43 @@
+.footer {
+    
+    &__inner-grey {
+        background: #2E2E2E;
+        text-align: center;
+        padding: 142px 0 80px 0;
+    }
+
+    &__text {
+        color: #FFF;
+        font-size: 13px;
+        font-weight: 300;
+        letter-spacing: 0.832px;
+        opacity: 0.5;
+    }
+
+    &__contact {
+        margin-top: 10px;
+
+    }
+
+    &__inner-img {
+        display: flex;
+        justify-content: center;
+        gap: 0 20px;
+        margin-top: 40px;
+
+    }
+
+    &__inner-black {
+        background: #252525;
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+
+    &__copy {
+        color: #FFF;
+        font-size: 13px;
+        font-weight: 300;
+        letter-spacing: 0.832px;
+        opacity: 0.5;
+    }
+}
